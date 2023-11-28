@@ -156,9 +156,9 @@ const PlayerContent: React.FC<PlayerContentProps> = ({
                     onClick={onPlayNext}
                     size={30}
                     className="
-                text-netural-400
+                    text-neutral-400
                 cursor-pointer
-                hover: text-white
+                hover:text-white
                 transition
                 "
                 />

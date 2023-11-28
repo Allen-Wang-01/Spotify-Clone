@@ -37,10 +37,10 @@ const Sidebar: React.FC<SidebarProps> = ({
     ], [pathname]);
     return (
         <div className={twMerge(`
-        felx
+        flex 
         h-full
         `,
-            player.activeId && "h-[calc(100%-80px)]"
+            player.activeId && 'h-[calc(100%-80px)]'
         )}>
             <div
                 className="
